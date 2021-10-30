@@ -1,0 +1,90 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wew</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css">
+
+</head>
+<body>
+    <!--navigation----------------->
+    <nav>
+        <!--logo------------------>
+        <a href="/index.html" class="logo">
+            <img src="/images/logo.png" alt="" class="">
+        </a>
+        <!--menu--btn-------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu------------------>
+        <ul class="menu">
+            <li><a href="/index.html">New</a></li>
+            <li><a href="#Trending">Trending</a></li>
+            <li><a href="#Popular">Popular</a></li>
+        </ul>
+        <!--search---------------->
+        <form id="form">
+            <input type="text" id="inputValue" placeholder="Enter your keywords..">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </nav>
+
+    <div class="media-wrapper">
+        <video id="player1" width="656px" height="369px" poster="/images/Thumbnail1.jpg" controls>
+            <source src="./1.mp4" type="video/mp4">
+        </video>
+        <div class="vid-info">
+            <h1>Sarap na sarap si babae</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="vid-list">
+            <a href="#Thumbnail1"><img src="/images/Thumbnail2.jpg" class="thumbnail"></a>
+            <div class="vid-info">
+                <a href="#">Eat Like a Pussy</a>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="#Thumbnail1"><img src="/images/Thumbnail2.jpg" class="thumbnail"></a>
+            <div class="vid-info">
+                <a href="#">Eat Like a Pussy</a>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="#Thumbnail1"><img src="/images/Thumbnail2.jpg" class="thumbnail"></a>
+            <div class="vid-info">
+                <a href="#">Eat Like a Pussy</a>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="#Thumbnail1"><img src="/images/Thumbnail2.jpg" class="thumbnail"></a>
+            <div class="vid-info">
+                <a href="#">Eat Like a Pussy</a>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="#Thumbnail1"><img src="/images/Thumbnail2.jpg" class="thumbnail"></a>
+            <div class="vid-info">
+                <a href="#">Eat Like a Pussy</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--btns---------------->
+    <div class="btns">
+        <a href="#Next">Show more video</a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/CDNSFree2/fluidplayer/fluidplayer.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
